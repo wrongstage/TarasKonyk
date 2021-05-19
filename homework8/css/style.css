@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-img{
+    background: url("../img/img.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 330px 0;
+    display: flex;
+    color: white;
+}
+
+.first-box{
+    width: 50%;
+}
+
+.first-box h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.first-box p{
+    text-transform: lowercase;
+    text-indent: 20px;
+}
+
+.second-box{
+    width: 50%;
+}
+input{
+    width: 100%;
+    height: 50px;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+.massage{
+    width: 30%;
+    height: 50px;
+}
+.button{
+    margin-top: 20px;
+    width: 30%;
+    height: 50px;
+    display: block;
+}
